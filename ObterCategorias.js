@@ -37,4 +37,4 @@ const marcadorDropdown = document.getElementById('marcadorDropdown');
 marcadorDropdown.addEventListener('change', atualizarPostagens);
 
 // Exibir postagens iniciais ao carregar a página
-atualizarPostagens();
+document.addEventListener('DOMContentLoaded', atualizarPostagens);
